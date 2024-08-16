@@ -5,7 +5,7 @@
 *** A frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn. ***
 
 My portforlio website was built with 
-- React ![react](./src/images/react-logo.png)
+- React <img height="10px" width="10px" src="./src/images/react-logo.png" alt="react logo">
 - Tailwind CSS ![tailwind](./src/images/tailwind.svg)
 - Framer motion
 

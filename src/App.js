@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { Home } from './components/homePage';
+import { Nav } from "./components/nav";
+import { WorkPage } from './components/workPage';
+import { AboutPage } from './components/aboutPage';
+import { ContactPage } from "./components/contactPage";
+import { Routes, Route } from "react-router-dom";
+import {AnimatePresence} from "framer-motion"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App text-white lg:text-xl h-svh font-thin">
+      <Nav/>
+      <AnimatePresence mode='wait'>
+        <Routes>
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/works" element={<WorkPage/>}></Route>
+          <Route path="/about" element={<AboutPage/>}></Route>
+          <Route path="/contact" element={<ContactPage/>}></Route>
+        </Routes>
+      </AnimatePresence>
     </div>
   );
 }

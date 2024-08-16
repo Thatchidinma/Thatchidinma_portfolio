@@ -6,7 +6,7 @@
 
 My portforlio website was built with 
 - React <img height="20px" width="20px" src="./src/images/react-logo.png" alt="react logo">
-- Tailwind CSS !<img height="20px" width="100px" src="./src/images/tailwind.svg" alt="react logo">
+- Tailwind CSS !<img height="20px" width="100px" color="white" src="./src/images/tailwind.svg" alt="react logo">
 - Framer motion
 
 

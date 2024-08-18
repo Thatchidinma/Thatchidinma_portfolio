@@ -1,6 +1,12 @@
 import portrait from "../images/portrait.png"
 import { Link } from "react-router-dom";
 import {motion as m} from "framer-motion"
+import htmllogo from "../images/html-logo.png"
+import csslogo from "../images/css-logo.png"
+import jslogo from "../images/js-logo.png"
+import reactlogo from "../images/react-logo.png"
+import wordpresslogo from "../images/wordpress-logo.png"
+import tailwindlogo from "../images/tailwind.svg"
 
 export function Home() {
     return (
@@ -9,9 +15,15 @@ export function Home() {
         animate={{opacity: 1}}
         transition={{duration: 2}}
          className="h-5/6 ">
+            <img src={htmllogo} alt="" className="h-10 animate-bounce absolute bottom-32 right-32 opacity-5 hover:opacity-25 z-20"/>
+            <img src={csslogo} alt="" className="h-10 animate-bounce absolute bottom-32 left-32 opacity-5 hover:opacity-25 z-20"/>
+            <img src={jslogo} alt="" className="h-10 animate-bounce absolute top-32 right-72 opacity-5 hover:opacity-25 z-20"/>
+            <img src={reactlogo} alt="" className="h-10 animate-spin-slow absolute top-72 left-72 opacity-5 hover:opacity-25 z-20"/>
+            <img src={wordpresslogo} alt="" className="h-10 animate-spin-slow hover:animate-none absolute top-96 right-60 opacity-10 hover:opacity-25 z-20"/>
+
             <main className="lg:grid grid-cols-2 mx-8 mt-8 overflow-hidden h-full">
             {/*<div className="lg:border-r-4  border-blue-700/40 h-1/4 xl:h-1/6 animate-pulse absolute top-40 xl:top-64 left-60 "></div>*/}
-                <div className="flex flex-col z-50">
+                <div className="flex flex-col z-10">
                     <div className="m-auto text-right lg:translate-x-32 pl-4">
                         <m.h1
                         initial={{y: "-100%"}}

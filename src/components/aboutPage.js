@@ -24,7 +24,7 @@ export function AboutPage() {
                 <p className="mt-8 text-blue-700">These are some of the technlogies I’ve been working with:</p>
                 <div className="grid grid-cols-4 gap-5 mt-4">
                     <img src={htmllogo} alt="" className="lg:h-32"/>
-                    <img src={csslogo} alt="" className=" lg:h-32"/>
+                    <img src={csslogo} alt="" className=" h-20 lg:h-32"/>
                     <img src={jslogo} alt="" className="lg:h-32"/>
                     <img src={reactlogo} alt="" className="lg:h-32 animate-spin-slow"/>
                     <img src={wordpresslogo} alt="" className="lg:h-32"/>

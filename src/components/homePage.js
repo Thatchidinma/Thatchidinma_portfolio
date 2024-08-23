@@ -6,7 +6,7 @@ import csslogo from "../images/css-logo.png"
 import jslogo from "../images/js-logo.png"
 import reactlogo from "../images/react-logo.png"
 import wordpresslogo from "../images/wordpress-logo.png"
-import tailwindlogo from "../images/tailwind.svg"
+
 
 export function Home() {
     return (

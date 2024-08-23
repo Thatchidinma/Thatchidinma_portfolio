@@ -13,6 +13,6 @@ export const workdata = [
         description: "A web app where users can book a room at Pines resort, learn morre about the resort and also contact them",
         techs: ["HTML", "CSS"],
         img: require("../images/pineresort.png"),
-        link: "https://pines-resort.vercel.app/"
+        link: ""
     }
 ]

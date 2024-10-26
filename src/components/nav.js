@@ -13,7 +13,10 @@ export function Nav(params) {
     return(
         <div className=" w-full">
             <header className=" shadow-xl bg-gray-800 flex flex-col justify-center p-3 lg:pl-24 text-blue-700 ">
-                <nav className="flex justify-between "> 
+                
+                {/* Combined nav for both large and mobile view */}
+                
+                {/* <nav className="flex justify-between "> 
                     <Link to="/"><img src={logo} alt="" className="w-16 h-16 my-auto"/></Link>
 
                     <div className={`${visble ? 'h-screen w-full flex top-0 right-0  z-50 fixed ' : ''}`}>
@@ -51,19 +54,53 @@ export function Nav(params) {
                         className="md:hidden my-auto text-5xl"
                         onClick={()=>setVisible(true)}
                     />
+                </nav> */}
+            
+                <nav className="flex justify-between "> 
+                    <Link to="/"><img src={logo} alt="" className="w-16 h-16 my-auto"/></Link>
+
+                    <ul className={`p-4 gap-8 md:flex hidden`}>
+                    <li className="hover:text-blue-400">
+                        <NavLink to="/works">
+                            Works
+                            <hr className='w-2/4 border-none h-[1.5px] hidden'/>
+                        </NavLink>
+                    </li>
+                    <li className="hover:text-blue-400">
+                        <NavLink to="/about">
+                            About
+                            <hr className='w-2/4 border-none h-[1.5px] hidden'/>
+                        </NavLink>
+                    </li>
+                    <li className="hover:text-blue-400">
+                        <NavLink to="/contact">
+                            Contact me
+                            <hr className='w-2/4 border-none h-[1.5px] hidden'/>
+                        </NavLink>
+                    </li>
+                    </ul>
+
+                    {/* hanburger icon for mobile view */}
+                    <BiMenuAltRight 
+                        className="md:hidden my-auto text-5xl"
+                        onClick={()=>setVisible(true)}
+                    />
                 </nav>
 
-                {/* <div className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-gray-800 z-50 transition-all h-screen ${visble ? 'w-2/3 shadow-2xl shadow-black' : 'w-0'} `}>
-                    <div className='flex flex-col text-white'>
+
+                {/* Nav side menu for mobile view */}
+                <div className={`fixed top-0 right-0 flex overflow-hidden  z-50 transition-all h-screen ${visble ? 'w-full' : 'w-0'} `}>
+                    <div className="w-1/3 bg-gray-800/60"></div>
+                    <div className='flex flex-col text-white w-2/3 bg-gray-800 p-4 md:gap-8 shadow-2xl shadow-black'>
                         <div onClick={()=>setVisible(false)} className='flex item-center gap-4 p-3 cursor-pointer'>
                             <IoCloseSharp className=' my-auto h-4 rotate-180' />
                         </div>
-                        <NavLink onClick={()=>setVisible(false)} className='py-2 mx-2 pl-6 border-b' to="/">Home</NavLink>
-                        <NavLink onClick={()=>setVisible(false)} className='py-2 mx-2 pl-6 border-b' to="/works">Works</NavLink>
-                        <NavLink onClick={()=>setVisible(false)} className='py-2 mx-2 pl-6 border-b' to="/about">About</NavLink>
-                        <NavLink onClick={()=>setVisible(false)} className='py-2 mx-2 pl-6 border-b' to="/contact">Contact me</NavLink>
+                        <NavLink onClick={()=>setVisible(false)} className='p-4 pl-6 border-b' to="/">Home</NavLink>
+                        <NavLink onClick={()=>setVisible(false)} className='p-4 pl-6 border-b' to="/works">Works</NavLink>
+                        <NavLink onClick={()=>setVisible(false)} className='p-4 pl-6 border-b' to="/about">About</NavLink>
+                        <NavLink onClick={()=>setVisible(false)} className='p-4 pl-6 border-b' to="/contact">Contact me</NavLink>
                     </div>
-                </div> */}
+                </div>
             </header>
         </div>
     )

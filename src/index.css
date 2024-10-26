@@ -7,3 +7,22 @@
         @apply  bg-gray-800
     }
 }
+
+a.active{
+    @apply text-blue-400;
+}
+
+a.active hr{
+    display: block;
+    @apply bg-blue-400;
+}
+
+@media (max-width:640px) {
+    a.active{
+        @apply text-blue-400 font-semibold;
+    }
+
+    a.active hr{
+        display: unset;
+    }
+}

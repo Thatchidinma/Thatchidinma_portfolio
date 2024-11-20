@@ -44,7 +44,7 @@ export function Home() {
                         animate={{x: "0"}} 
                         transition={{duration: 1.5}}
                         className="mt-8">A frontend developer with a particular interest in making things simple and automating daily tasks. 
-                        I try to keep up with security and best practices, and am always looking for new things to learn.</m.p>
+                        I try to keep up with security and best practices, and i am always looking for new things to learn.</m.p>
                         <Link to="/works"><m.button 
                         initial={{y: "100%"}}
                         animate={{y: "0"}} 

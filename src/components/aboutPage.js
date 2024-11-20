@@ -4,7 +4,9 @@ import csslogo from "../images/css-logo.png"
 import jslogo from "../images/js-logo.png"
 import reactlogo from "../images/react-logo.png"
 import wordpresslogo from "../images/wordpress-logo.png"
+import firebaselogo from "../images/firebase.png"
 import tailwindlogo from "../images/tailwind.svg"
+import nextlogo from "../images/next.svg"
 import {motion as m} from "framer-motion"
 
 export function AboutPage() {
@@ -24,11 +26,13 @@ export function AboutPage() {
                 <p className="mt-8 text-blue-700">These are some of the technlogies I’ve been working with:</p>
                 <div className="grid grid-cols-4 gap-5 mt-4">
                     <img src={htmllogo} alt="" className="lg:h-32"/>
-                    <img src={csslogo} alt="" className=" h-20 lg:h-32"/>
-                    <img src={jslogo} alt="" className="lg:h-32"/>
+                    <img src={csslogo} alt="" className=" h-16 lg:h-32"/>
+                    <img src={jslogo} alt="" className=" h-16 lg:h-32"/>
                     <img src={reactlogo} alt="" className="lg:h-32 animate-spin-slow"/>
                     <img src={wordpresslogo} alt="" className="lg:h-32"/>
                     <img src={tailwindlogo} alt="icon" className="h-12 lg:h-32 w-40"/>
+                    <img src={firebaselogo} alt="" className="h-16 lg:h-32"/>
+                    <img src={nextlogo} alt="icon" className="h-12 lg:h-32 w-40"/>
                 </div>
                 <p className="mt-8">I am also the head makeup artist and creative director at Makeup by Thatchidinma and a food scientist with a bachelors degree in food Science and Technology. </p>
             </div>

@@ -1,10 +1,17 @@
 export const workdata = [
     {
+        title: "SHOENXTDOOR",
+        description: "An Ecommerce web application for ShoesNxtDoor which is a local shoe brand where users can affordable yet stylish footwear for men, women, and children.",
+        techs: ['Wordpress'],
+        img: require("../images/Shoenxtdoor.png"),
+        link: "https://shoesnxtdoor.com/"
+    },
+    {
         title: "AfriBite",
         description: "Afribite is an innovative food delivery platform that focuses on promoting African cuisine by connecting local restaurants to customers. The platform offers users a seamless experience for ordering food online, tracking deliveries, and accessing special offers from restaurants and offers resturant owners seamless order tracking and menu creation features",
         techs: ["REACT", "Tailwind CSS", 'Firebase'],
         img: require("../images/Afribite.png"),
-        link: "https://afribite.vercel.app"
+        link: "https://afribite.vercel.app/Adminhome/Dashboard"
     },
     {
         title: "READ",

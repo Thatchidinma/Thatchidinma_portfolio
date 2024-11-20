@@ -45,11 +45,11 @@ export function Home() {
                         transition={{duration: 1.5}}
                         className="mt-8">A frontend developer with a particular interest in making things simple and automating daily tasks. 
                         I try to keep up with security and best practices, and am always looking for new things to learn.</m.p>
-                        <m.button 
+                        <Link to="/works"><m.button 
                         initial={{y: "100%"}}
                         animate={{y: "0"}} 
                         transition={{duration: 1.5}}
-                        className="bg-blue-700 p-4 mt-6 rounded-xl hover:bg-blue-600"><Link to="/works">View projects</Link></m.button>
+                        className="bg-blue-700 p-4 mt-6 rounded-xl hover:bg-blue-600">View projects</m.button></Link>
                     </div>
                 </div>
                 <m.div

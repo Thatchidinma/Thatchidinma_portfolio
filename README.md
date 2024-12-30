@@ -13,7 +13,7 @@ My portforlio website was built with
 
 and it was hosted on [Vercel](https://vercel.com/home)
 
-View live 🌐 [ThatChidinma's portfolio](https://thatchidinma-portfolio.vercel.app/).
+View live 🌐 [ThatChidinma's portfolio](https://thatchidinma.com).
 
 - 📫 How to reach me **ndukubachidinma@gmail.com**
 

@@ -21,7 +21,7 @@ export function ContactPage(params) {
         initial={{opacity: 0}} 
         animate={{opacity: 1}} 
         transition={{duration: 0.9}} 
-        className="m-8"
+        className="m-8 flex flex-col justify-center h-screen"
         >
             <h1 className="text-3xl lg:text-6xl font-thin">Get in Touch</h1>
             <div className="flex flex-col lg:flex-row py-4 lg:p-16 lg:mx-6">

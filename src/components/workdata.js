@@ -1,5 +1,12 @@
 export const workdata = [
     {
+        title: "TechSis Network",
+        description: "A website for TechSis Network a dynamic and innovative organization dedicated to closing the gender gap in the tech workforce, focused on empowering women. TechSis Network provides hands-on experience through collaborative live projects in the software development lifecycle.",
+        techs: ['Nextjs', 'Tailwind', 'Firebase', 'Typescript'],
+        img: require("../images/TechSis.png"),
+        link: "https://tech-sis.vercel.app/"
+    },
+    {
         title: "SHOENXTDOOR",
         description: "An Ecommerce web application for ShoesNxtDoor which is a local shoe brand where users can affordable yet stylish footwear for men, women, and children.",
         techs: ['Wordpress'],

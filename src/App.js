@@ -5,6 +5,7 @@ import { WorkPage } from './components/workPage';
 import { AboutPage } from './components/aboutPage';
 import { ContactPage } from "./components/contactPage";
 import { Routes, Route } from "react-router-dom";
+import Footer from './components/footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" element={<AboutPage/>}></Route>
           <Route path="/contact" element={<ContactPage/>}></Route>
         </Routes>
+      <Footer/>
     </div>
   );
 }

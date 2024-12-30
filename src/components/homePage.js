@@ -14,14 +14,14 @@ export function Home() {
         initial={{opacity: 0}}
         animate={{opacity: 1}}
         transition={{duration: 2}}
-         className="h-5/6 ">
-            <img src={htmllogo} alt="" className="h-10 animate-bounce absolute bottom-32 right-32 opacity-5 hover:opacity-25 z-20"/>
-            <img src={csslogo} alt="" className="h-10 animate-bounce absolute bottom-32 left-32 opacity-5 hover:opacity-25 z-20"/>
-            <img src={jslogo} alt="" className="h-10 animate-bounce absolute top-32 right-72 opacity-5 hover:opacity-25 z-20"/>
-            <img src={reactlogo} alt="" className="h-10 animate-spin-slow absolute top-72 left-72 opacity-5 hover:opacity-25 z-20"/>
-            <img src={wordpresslogo} alt="" className="h-10 animate-spin-slow hover:animate-none absolute top-96 right-60 opacity-10 hover:opacity-25 z-20"/>
+         className="h-screen ">
+            <img src={htmllogo} alt="" className="h-10 animate-bounce absolute bottom-32 right-32 opacity-20 dark:opacity-5 hover:opacity-100 hover:grayscale-0 z-20"/>
+            <img src={csslogo} alt="" className="h-10 animate-bounce absolute bottom-32 left-32 opacity-25 dark:opacity-5  hover:opacity-100 hover:grayscale-0 z-20"/>
+            <img src={jslogo} alt="" className="h-10 animate-bounce absolute top-32 right-72 opacity-25 dark:opacity-5  hover:opacity-100 hover:grayscale-0 z-20"/>
+            <img src={reactlogo} alt="" className="h-10 animate-spin-slow absolute top-72 left-72 opacity-25 dark:opacity-5  hover:opacity-100 hover:grayscale-0 z-20"/>
+            <img src={wordpresslogo} alt="" className="h-10 animate-spin-slow hover:animate-none absolute top-96 right-60 opacity-25 dark:opacity-10  hover:opacity-100 hover:grayscale-0 z-20"/>
 
-            <main className="lg:grid grid-cols-2 mx-8 mt-8 overflow-hidden h-full">
+            <main className="lg:grid grid-cols-2 mx-8 mt-8 lg:mt-0 overflow-hidden h-full md:text-2xl">
             {/*<div className="lg:border-r-4  border-blue-700/40 h-1/4 xl:h-1/6 animate-pulse absolute top-40 xl:top-64 left-60 "></div>*/}
                 <div className="flex flex-col z-10">
                     <div className="m-auto text-right lg:translate-x-32 pl-4">
@@ -33,7 +33,7 @@ export function Home() {
                         initial={{x: "-100%"}}
                         animate={{x: "0"}} 
                         transition={{duration: 1.5}} 
-                        className="lg:text-6xl text-3xl font-thin">Ndukuba N Chidinma</m.h1>
+                        className="md:text-6xl text-3xl font-thin">Ndukuba N Chidinma</m.h1>
                         <m.p 
                         initial={{x: "-100%"}}
                         animate={{x: "0"}} 
@@ -56,7 +56,7 @@ export function Home() {
                 initial={{y: "100%"}}
                 animate={{y: "0"}} 
                 transition={{duration: 1.5}}
-                className="lg:flex justify-left "><img src={portrait} alt="" className=""/> </m.div>
+                className="lg:flex justify-center lg:justify-left"><img src={portrait} alt="" className="m-auto p-0 md:pt-32 md:scale-150"/> </m.div>
                 {/*<div className="lg:border-r-4 border-blue-700/40 h-1/4 animate-pulse absolute bottom-32 right-32"></div>*/}
             </main>
         </m.div>

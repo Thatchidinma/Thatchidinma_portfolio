@@ -21,7 +21,7 @@ export function Home() {
             <img src={reactlogo} alt="" className="h-10 animate-spin-slow absolute top-72 left-72 opacity-25 dark:opacity-5  hover:opacity-100 hover:grayscale-0 z-20"/>
             <img src={wordpresslogo} alt="" className="h-10 animate-spin-slow hover:animate-none absolute top-96 right-60 opacity-25 dark:opacity-10  hover:opacity-100 hover:grayscale-0 z-20"/>
 
-            <main className="lg:grid grid-cols-2 mx-8 mt-8 lg:mt-0 overflow-hidden h-full md:text-2xl">
+            <main className="grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 mx-8 mt-8 lg:mt-0 overflow-hidden h-full md:text-2xl">
             {/*<div className="lg:border-r-4  border-blue-700/40 h-1/4 xl:h-1/6 animate-pulse absolute top-40 xl:top-64 left-60 "></div>*/}
                 <div className="flex flex-col z-10">
                     <div className="m-auto text-right lg:translate-x-32 pl-4">
@@ -56,9 +56,11 @@ export function Home() {
                 initial={{y: "100%"}}
                 animate={{y: "0"}} 
                 transition={{duration: 1.5}}
-                className="lg:flex justify-center lg:justify-left"><img src={portrait} alt="" className="md:m-auto p-0 md:pt-32 md:scale-150"/> </m.div>
+                className="lg:flex justify-center lg:justify-left"><img src={portrait} alt="" className="md:m-auto p-0 md:pt-32 md:scale-150 h-full md:h-fit"/> </m.div>
                 {/*<div className="lg:border-r-4 border-blue-700/40 h-1/4 animate-pulse absolute bottom-32 right-32"></div>*/}
             </main>
         </m.div>
     )
 }
+// h-full md:h-fit
+// grid grid-rows-2 lg:grid-cols-2

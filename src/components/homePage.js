@@ -56,7 +56,7 @@ export function Home() {
                 initial={{y: "100%"}}
                 animate={{y: "0"}} 
                 transition={{duration: 1.5}}
-                className="lg:flex justify-center lg:justify-left"><img src={portrait} alt="" className="m-auto p-0 md:pt-32 md:scale-150"/> </m.div>
+                className="lg:flex justify-center lg:justify-left"><img src={portrait} alt="" className="md:m-auto p-0 md:pt-32 md:scale-150"/> </m.div>
                 {/*<div className="lg:border-r-4 border-blue-700/40 h-1/4 animate-pulse absolute bottom-32 right-32"></div>*/}
             </main>
         </m.div>

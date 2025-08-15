@@ -40,7 +40,7 @@ export function Home() {
                             animate={{ y: "0" }}
                             transition={{ duration: 1.5 }}
                             className="flex mt-6 justify-end gap-3">
-                            <Link to="https://docs.google.com/document/d/1P5vxrgK-JRIsVjZKA1ixXn-Ilx5wXKqFbbu7mVNKysw/edit?usp=sharing">
+                            <Link to="https://docs.google.com/document/d/1P5vxrgK-JRIsVjZKA1ixXn-Ilx5wXKqFbbu7mVNKysw/edit?usp=sharing" target="_blank">
                                 <div className="min-w-[150px] border p-4 text-center rounded-xl  hover:bg-blue-400/10 hover:border-transparent hover:scale-95 w-fit hover:shadow-lg">
                                     Resume
                                 </div>

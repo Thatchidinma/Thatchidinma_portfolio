@@ -11,8 +11,8 @@ export function Nav(params) {
     console.log(visble)
 
     return(
-        <div className=" w-full">
-            <header className=" shadow-xl bg-gray-800 flex flex-col justify-center p-3 lg:pl-24 text-blue-700 ">
+        <div className=" w-full  shadow-xl flex justify-center">
+            <header className="max-w-[1278px] w-full  bg-gray-800 flex flex-col justify-center p-3 text-blue-700 ">
                 
                 {/* Combined nav for both large and mobile view */}
                 

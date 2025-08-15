@@ -58,11 +58,11 @@ export function AboutPage() {
             <section className="max-w-[1278px] ">
                 <h1 className="text-3xl lg:text-6xl lg:pl-8 ">About Me</h1>
                 <div className="lg:p-16 lg:m-0 mt-8">
-                    <div className="flex flex-col lg:flex-row gap-5 m-auto">
-                        <div className=" ">
+                    <div className="flex flex-col lg:grid grid-cols-3 gap-5 m-auto">
+                        <div className="">
                             <img src={aboutimage} alt="" className="rounded-3xl" />
                         </div>
-                        <div className="flex lg:text-2xl">
+                        <div className="flex lg:text-2xl col-span-2">
                             <div className="m-auto">
                                 <div className="flex items-center">Hi
                                     <p className="animate-wave-hand text:xl lg:text-5xl">👋🏿</p>

@@ -9,9 +9,10 @@ export function WorksCard(props) {
                 initial={{ y: "100%" }}
                 animate={{ y: "0" }}
                 transition={{ duration: 0.9 }}
+                className="m-auto"
                 >
                 <img src={props.img} alt=""
-                    className="h-fit w-fit" />
+                    className="object-contain max-h-[200px] lg:max-h-full  min-w-full " />
             </m.div>
             <m.div
                 initial={{ x: "100%" }}
